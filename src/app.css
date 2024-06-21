@@ -1,0 +1,214 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background: #f3ff728e;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  
+  .back {
+    background: white;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 98%;
+    height: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .principal {
+    background-color: #b1a6f6;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding: 16px;
+    min-height: 120px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .title {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    font-weight: auto;
+    line-height: 1.2;
+  }
+  
+  .todo-container {
+    background: white;
+    border-radius: 16px;
+    padding: 10px;
+    width: 98%;
+    max-width: 96%;
+    min-height: 590px;
+    align-items: center;
+    justify-content: flex-start;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    padding: 16px;
+  }
+  
+  .title-list {
+    text-align: center;
+    font-size: 60px;
+    margin: 10px;
+    padding-top: 50px;
+  }
+  
+  .title-pesquisa {
+    margin-top: 40px;
+    flex: 1;
+    padding: 10px 15px;
+    border: 1px solid #9e9e9e;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #bdbdbd;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: row; 
+  }
+  
+  .input-container .alternar-button {
+    background-color: #b1a6f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px; 
+  }
+  
+  .input-container .alternar-button:hover {
+    background-color: #a092f9;
+  }
+  
+  .tasks-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .task-item.completed {
+    background-color: #f2f2f2;
+  }
+  
+  .task-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .task-details input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .task-details span {
+    cursor: pointer;
+  }
+  
+  .remove-button {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .remove-button:hover {
+    background-color: #cc0000;
+  }
+  
+  .container-central {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 16px;
+    padding: 32px 16px;
+  }
+  
+  .contagem-tarefas {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  .filtros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 16px;
+    padding: 16px;
+  }
+  
+  .filtros button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #b1a6f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .filtros button:hover {
+    background-color: #a092f9;
+  }
+  
+  .limpar-todos {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .limpar-todos:hover {
+    background-color: #cc0000;
+  }
+  
